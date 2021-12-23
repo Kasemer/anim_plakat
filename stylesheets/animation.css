@@ -1,0 +1,587 @@
+.ma, .ma_2, .ma_3 {
+  position: relative;
+   display: flex;
+
+  height: 250vw;
+top: -65vw;
+left: 1vw;
+}
+
+
+
+.ma {
+  animation-name: a1 ;
+  animation-duration: 10s ;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes a1 {
+0% { transform: translateY(-10%) ;}
+100% { transform: translateY(200%) ;}
+
+}
+
+.ma_2 {
+  animation-name: a2;
+  animation-duration: 10s ;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+
+}
+
+@keyframes a2 {
+
+0% { transform: translateY(-206%) ;}
+100% { transform: translateY(4%) ;}
+
+}
+
+.ma_3 {
+  animation-name: a3;
+  animation-duration: 10s ;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes a3 {
+0% { transform: translateY(-400%) ;}
+100% { transform: translateY(-190%) ;}
+}
+
+.box5 {
+  background-color: #4B59DF;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+
+
+.box5:hover{
+  background-color: #F8C615;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+.mout {
+  width: 40vw;
+  height: 20vw;
+}
+
+.mouth2:hover {
+  transform: translateY(100px);
+  transform: rotateX(180deg);
+}
+
+
+.letter1{
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+}
+
+
+.letter1:hover {
+  transform: scale(1.5) ;
+}
+
+
+
+.letter2{
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+}
+
+.letter2:hover {
+transform: scale(0.5) ;
+}
+
+
+.letter3{
+  transition: transform 1s;
+  transition-timing-function: ease;
+}
+
+.letter3:hover {
+transform: rotate(360deg);
+}
+
+
+
+.letter4{
+  -webkit-transition: transform 2s;
+  transition-timing-function: ease;
+}
+
+.letter4:hover {
+  transform: rotate(180deg);
+}
+
+
+
+.letter5{
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+}
+
+
+.letter5:hover {
+  transform: scale(1.4) ;
+
+}
+
+
+
+.letter6{
+  transition: transform 1s;
+  transition-timing-function: ease;
+}
+
+.letter6:hover {
+transform: rotate(-360deg);
+
+}
+
+
+.letter7{
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+}
+
+
+.letter7:hover {
+  transform: scale(1.3) ;
+
+}
+
+.letter8{
+  transition: transform 2s;
+  transition-timing-function: ease;
+}
+
+
+.letter8:hover {
+  transform: scale(1.3) ;
+  transform: rotate(360deg);
+
+}
+
+
+
+
+
+
+.pill_black {
+
+  animation: pi 3s  infinite;
+animation-timing-function: ease;
+
+
+}
+
+@keyframes pi{
+  0%   {transform: translateX(40%); }
+  10% {transform: translateX(45%); }
+  50%  {transform: translateX(-20%);}
+  70%  {transform: translateX(-20%);}
+  100% {transform: translateX(40%);}
+
+}
+
+.pill_white {
+
+  animation: pi2 3s  infinite;
+animation-timing-function: ease;
+
+
+}
+
+@keyframes pi2{
+
+  0%   {transform: translateX(-35%); }
+    10% {transform: translateX(-40%); }
+  50%  {transform: translateX(45%);}
+  70%  {transform: translateX(45%);}
+
+  100% {transform: translateX(-35%);}
+
+}
+
+
+.sparkle {
+  animation: sp 2s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes sp {
+  0% {transform: rotate(0deg);}
+  10% { transform: rotate(-30deg);}
+  25% { transform: rotate(30deg);}
+  50% { transform: rotate(-30deg);}
+  60% { transform: rotate(30deg);}
+  75% {transform: rotate(-30deg); }
+  100% { transform: rotate(0deg);}
+
+}
+
+
+
+.smile1 {
+  background-color: #1E1A1B;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+
+.smile1:hover{
+  background-color: #F8C615;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+
+
+
+
+
+.smile2 {
+  background-color: #F17110;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+.smile2:hover{
+  background-color: #F8C615;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+
+.smile3 {
+  background-color: #1E1A1B;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+.smile3:hover{
+  background-color: #F17110;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+
+
+.smile4 {
+  background-color: #F8C615;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+.smile4:hover{
+  background-color: #1E1A1B;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+
+.smile5 {
+  background-color: #4B59DF;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+.smile5:hover{
+  background-color: #F17110;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+
+
+.smile6 {
+  background-color: #F8C615;
+transition: background-color 1s;
+  animation-duration: 1s;
+  animation-name:  face infinite;
+}
+.smile6:hover{
+  background-color: #1E1A1B;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+.move1 {
+  animation: m1 2s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m1{
+  0% {transform: translate(-120%, -120%) rotate(-40deg); }
+  25% {transform: translate( 200%, 400%) rotate(-40deg);}
+  70% {transform: translate( 150%, 350%) rotate(-180deg);}
+  100% {transform: translate( 200%, -210%) rotate(-180deg);}
+
+}
+
+
+.move2 {
+  animation: m2 2s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m2{
+  0% {transform: translate(380%, 370%) rotate(120deg); }
+  100% {transform: translate(-300%, 100%) rotate(120deg);}
+
+}
+
+
+
+.move3 {
+  animation: m3 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m3{
+  0% {transform: translate(-120%, -200%) rotate(-10deg); }
+  40% {transform: translate( 140%, 450%) rotate(-10deg);}
+  70% {transform: translate( 150%, 350%) rotate(-180deg);}
+  100% {transform: translate( 200%, -210%) rotate(-180deg);}
+}
+
+
+
+.move4 {
+  animation: m4 2s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m4{
+  0% {transform: translate(300%, -130%) rotate(60deg); }
+  100% {transform: translate( -460%, 290%) rotate(60deg);}
+}
+
+
+
+
+.move5 {
+  animation: m5 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m5{
+  0% {transform: translate(-90%, 300%) rotate(-150deg); }
+  100% {transform: translate( 350%, -300%) rotate(-150deg);}
+}
+
+
+
+ .move6 {
+  animation: m6 4s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m6{
+  0% {transform: translate(-230%, -100%) rotate(-40deg); }
+  50% {transform: translate( -390%, 360%) rotate(-40deg);}
+  70% {transform: translate( -150%, 350%) rotate(-180deg);}
+  100% {transform: translate( -200%, 210%) rotate(-180deg);}
+}
+
+
+ .move7 {
+  animation: m7 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m7{
+  0% {transform: translate(290%, 20%) rotate(60deg); }
+  40% {transform: translate( -350%, 300%) rotate(60deg);}
+  70% {transform: translate( 150%, 350%) rotate(-180deg);}
+  100% {transform: translate( 200%, -210%) rotate(-180deg);}
+}
+
+
+.move8 {
+  animation: m8 2s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m8{
+  0% {transform: translate(90%, 300%) rotate(150deg); }
+  100% {transform: translate( -350%, -300%) rotate(150deg);}
+}
+
+
+.move9 {
+  animation: m9 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m9{
+  0% {transform: translate(-200%, -200%) rotate(-40deg); }
+  40% {transform: translate( 450%, 300%) rotate(-40deg);}
+  70% {transform: translate(-200%, -200%) rotate(-40deg); }
+  100% {transform: translate(-200%, -200%) rotate(-40deg); }
+
+}
+
+
+.move10 {
+  animation: m10 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m10{
+  0% {transform: translate(450%, 200%) rotate(130deg); }
+  40% {transform: translate( -400%, -200%) rotate(130deg);}
+  70% {transform: translate( 150%, 350%) rotate(-180deg);}
+  100% {transform: translate( 220%, -320%) rotate(-180deg);}
+
+}
+
+.move11 {
+  animation: m11 2s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m11{
+  0% {transform: translate(-300%, 200%) rotate(-140deg); }
+  50% {transform: translate( 200%, -350%) rotate(-140deg);}
+  70% {transform: translate( -150%, -350%) rotate(-180deg);}
+  100% {transform: translate( 200%, 210%) rotate(-180deg);}
+}
+
+.move12 {
+  animation: m12 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m12{
+  0% {transform: translate(450%, 200%) rotate(130deg); }
+  40% {transform: translate( -470%, -210%) rotate(130deg);}
+  70% {transform: translate( 100%, 350%) rotate(-180deg);}
+  100% {transform: translate( 200%, -210%) rotate(-180deg);}
+}
+
+
+
+.move13 {
+  animation: m13 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes m13{
+  0% {transform: translate(-90%, 300%) rotate(150deg); }
+  40% {transform: translate( 350%, 300%) rotate(150deg);}
+  70% {transform: translate( -150%, 350%) rotate(-180deg);}
+  100% {transform: translate( -200%, 210%) rotate(-180deg);}
+}
+
+
+
+
+
+.box6 {
+  background-color: #F8C615;
+transition: background-color 1s;
+  animation-duration: 1s;
+  color: #1E1A1B;
+
+
+}
+
+
+.box6:hover{
+  background-color: #1E1A1B;
+  transition-duration: 1s ;
+  transition-timing-function: linear;
+}
+
+
+
+.text_in {
+  color: #1E1A1B;
+transition: opacity 1s;
+
+
+
+}
+
+.text_in:hover{
+  opacity: 0%;
+  transition-duration: 1s ;
+  transition-timing-function: linear;
+}
+
+
+
+.Q1 {
+  animation: Q1 3s  infinite;
+animation-timing-function: ease;
+}
+@keyframes Q1 {
+  0% {opacity: 80%;}
+  25% {opacity: 0%;}
+  50% {opacity: 80%;}
+  75% {opacity: 0%;}
+  100% {opacity: 80%;}
+}
+
+
+.ex1 {
+  animation: exx1 1s  infinite;
+animation-timing-function: ease;
+opacity: 0%;
+}
+@keyframes exx1 {
+  0% {transform: translateX(-30%);}
+  25% {transform: translateX(-20%);}
+  50% { transform: translateX(-10%);}
+  75% { transform: translateX(-10%);}
+  100% { transform: translateX(-20%);}
+}
+
+
+.ex1:hover{
+  opacity: 100%;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+.ex2 {
+  animation: exx2 1s  infinite;
+animation-timing-function: ease;
+opacity: 0%;
+}
+@keyframes exx2 {
+  0% {transform: translateX(-30%);}
+  25% {transform: translateX(-20%);}
+  50% { transform: translateX(-10%);}
+  75% { transform: translateX(-10%);}
+  100% { transform: translateX(-20%);}
+}
+
+
+.ex2:hover{
+  opacity: 100%;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+.ex3 {
+  animation: exx3 1s  infinite;
+animation-timing-function: ease;
+opacity: 0%;
+}
+@keyframes exx3 {
+  0% {transform: translateX(-30%);}
+  25% {transform: translateX(-20%);}
+  50% { transform: translateX(-10%);}
+  75% { transform: translateX(-10%);}
+  100% { transform: translateX(-20%);}
+}
+
+
+.ex3:hover{
+  opacity: 100%;
+  transition-duration: 0.5s ;
+  transition-timing-function: linear;
+}
+
+/*
+body {
+  animation: body 1s  infinite;
+animation-timing-function: ease;
+
+}
+@keyframes body {
+  0% {background-color: white;}
+  50% {background-color: yellow;}
+  100% {background-color: white;} */
